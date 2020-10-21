@@ -15,7 +15,8 @@ function check_prime($num)
 }
 
 $flag_val = check_prime($num);
-if ($flag_val == 1)
+if ($flag_val == 1) {
    echo $num . "は素数です。";
-else
+} else {
    echo $num . "は素数ではありません。";
+}
